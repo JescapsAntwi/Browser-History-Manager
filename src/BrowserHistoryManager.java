@@ -33,7 +33,7 @@ public class BrowserHistoryManager {
         history.displayHistoryForward();
 
         // loading from a file that does not exist
-        System.out.println("\nTrying to load from non-existent file:");
+        System.out.println("\nTrying to load from a file that has not been created yet:");
         history.loadFromFile("nonexistent.txt");
     }
 }
